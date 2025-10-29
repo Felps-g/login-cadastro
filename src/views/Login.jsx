@@ -20,12 +20,12 @@ export default function Login(){
                             <input type="password" placeholder='Digite sua senha' id='password' name='password' />
                         </div>
                         <button>Enviar!</button>
-                        <p>Não tem uma conta? <Link to='/cadastro'>Cadastrar</Link></p>
                         <div className="container-icons">
                             <AiFillInstagram  size={40}/>
                             <FcGoogle id='google' size={40}/>
                             <FaApple size={42}/>
                         </div>
+                        <p>Não tem uma conta? <Link to='/cadastro'>Cadastrar</Link></p>
                     </form>
                 </div>
             </div>

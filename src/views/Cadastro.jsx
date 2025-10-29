@@ -31,12 +31,13 @@ export default function Cadastro(){
                             <input type="password" placeholder='Confirme sua senha' id='name' name='name' />
                         </div>
                         <button>Enviar!</button>
-                        <p>Já tem uma conta? <Link to='/'>Entrar</Link></p>
+                        
                         <div className="container-icons">
                             <AiFillInstagram  size={40}/>
                             <FcGoogle id='google' size={40}/>
                             <FaApple      size={42}/>
                         </div>
+                        <p>Já tem uma conta? <Link to='/'>Entrar</Link></p>
                     </form>
                 </div>
             </div>
